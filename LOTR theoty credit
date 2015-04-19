@@ -16,7 +16,7 @@ if "выбрано здание для строительства" then:
    узнать стоимость постройки(price);
     узнать время постройки(time)    ;
     убрать текстуру строителя;
-    for (i=1;time;i+=1):
+    for (i=1;i<=time;i+=1):
         {if "(price/time)< money" then
            {timeloss = time - i;
             timeprocess = time - timeloss
